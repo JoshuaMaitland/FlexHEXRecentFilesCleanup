@@ -19,13 +19,6 @@ namespace FlexHEXRecentFilesCleanup
             InitializeComponent();
         }
 
-        private void Main_Load(object sender, EventArgs e)
-        {
-#if DEBUG
-            this.Text += " [Debug]";
-#endif
-        }
-
         private void btnCleanup_Click(object sender, EventArgs e)
         {
             DialogResult cleanupDialog = MessageBox.Show("Are you sure you want to clean up all of the recent files?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
