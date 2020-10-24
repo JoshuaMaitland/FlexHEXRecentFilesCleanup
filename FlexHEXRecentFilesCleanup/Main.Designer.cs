@@ -45,8 +45,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(468, 78);
             this.label1.TabIndex = 0;
-            this.label1.Text = "This tool will cleanup all of the FlexHEX Recent\r\nFiles List. To get started, cli" +
-    "ck on the button\r\nbelow.";
+            this.label1.Text = "This tool will cleanup all of the FlexHEX Recent\r\nFiles List. To get started, click on the button\r\nbelow.";
             // 
             // btnCleanup
             // 
