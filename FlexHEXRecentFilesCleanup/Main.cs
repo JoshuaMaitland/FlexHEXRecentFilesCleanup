@@ -33,7 +33,7 @@ namespace FlexHEXRecentFilesCleanup
                     }
                     catch
                     {
-                        MessageBox.Show("FlexHEX Recent Files was not be able to clear all of the recent files. Maybe it's because you've already cleaned up or you haven't got FlexHEX installed on your computer.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        MessageBox.Show("The tool was not be able to clear all of the recent files. Maybe it's because you've already cleaned it up or you haven't got FlexHEX installed on your computer.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     }
                 }
             }
