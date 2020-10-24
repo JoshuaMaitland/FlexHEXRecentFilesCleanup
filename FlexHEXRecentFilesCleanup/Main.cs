@@ -21,15 +21,15 @@ namespace FlexHEXRecentFilesCleanup
 
         private void btnCleanup_Click(object sender, EventArgs e)
         {
-            DialogResult cleanupDialog = MessageBox.Show("Are you sure you want to clean up all of the recent files?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (cleanupDialog == DialogResult.Yes)
+            DialogResult clearDialog = MessageBox.Show("Are you sure you want to clear all of the recent files?", Application.ProductName, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (clearDialog == DialogResult.Yes)
             {
                 using (RegistryKey key = Registry.CurrentUser.OpenSubKey("Software\\Inv Softworks\\FlexHEX", true))
                 {
                     try
                     {
                         key.DeleteSubKeyTree("Recent File List", true);
-                        MessageBox.Show("FlexHEX Recent Files cleared sucessfully.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        MessageBox.Show("FlexHEX Recent Files was cleared sucessfully.", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     }
                     catch
                     {
