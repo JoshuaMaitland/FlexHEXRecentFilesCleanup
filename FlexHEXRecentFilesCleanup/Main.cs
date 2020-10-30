@@ -41,7 +41,7 @@ namespace FlexHEXRecentFilesCleanup
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Tool made by Joshua Maitland\r\n\r\nThis program was made under GNU General Public License v3.0. See LICENSE for details", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Tool made by Joshua Maitland\r\n\r\nThis program was made under MIT License. See LICENSE for details", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }
