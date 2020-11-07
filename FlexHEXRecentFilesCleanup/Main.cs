@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 // Other Stuff
 using Microsoft.Win32;
@@ -41,7 +34,7 @@ namespace FlexHEXRecentFilesCleanup
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Tool made by Joshua Maitland\r\n\r\nThis program was made under MIT License. See LICENSE for details", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            MessageBox.Show("Tool made by Joshua Maitland\r\n\r\nThis program was made under the MIT License. See LICENSE for details", "About " + Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }
