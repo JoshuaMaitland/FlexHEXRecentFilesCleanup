@@ -5,7 +5,7 @@ namespace FlexHEXRecentFilesCleanup
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Are you sure you want to clear all of the recent files?");
             var keyInfo = Console.ReadKey();
