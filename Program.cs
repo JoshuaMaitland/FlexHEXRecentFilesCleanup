@@ -7,6 +7,7 @@ namespace FlexHEXRecentFilesCleanup
     {
         static void Main()
         {
+            Console.WriteLine("This tool is not affiliated with the FlexHEX program AT ALL!!");
             Console.WriteLine("To clear all of the recent files on FlexHEX, press Y on your keyboard.");
             var keyInfo = Console.ReadKey();
             if (keyInfo.Key == ConsoleKey.Y)
